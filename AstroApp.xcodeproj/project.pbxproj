@@ -11,6 +11,14 @@
 		F33823D92A76902A007CDAA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33823D82A76902A007CDAA5 /* ContentView.swift */; };
 		F33823DB2A76902C007CDAA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33823DA2A76902C007CDAA5 /* Assets.xcassets */; };
 		F33823DF2A76902C007CDAA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33823DE2A76902C007CDAA5 /* Preview Assets.xcassets */; };
+		F33823E92A7691EB007CDAA5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33823E82A7691EB007CDAA5 /* HomeView.swift */; };
+		F33823ED2A769368007CDAA5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33823EC2A769368007CDAA5 /* SignInView.swift */; };
+		F33823F02A76939C007CDAA5 /* UserAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33823EF2A76939C007CDAA5 /* UserAuthModel.swift */; };
+		F33823F32A7693F9007CDAA5 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = F33823F22A7693F9007CDAA5 /* GoogleSignIn */; };
+		F33823F52A7694BF007CDAA5 /* AstroAppAPI in Resources */ = {isa = PBXBuildFile; fileRef = F33823F42A7694BF007CDAA5 /* AstroAppAPI */; };
+		F33823F72A769762007CDAA5 /* AttendanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33823F62A769762007CDAA5 /* AttendanceManager.swift */; };
+		F33823F92A76978D007CDAA5 /* AttendanceManager+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33823F82A76978D007CDAA5 /* AttendanceManager+Load.swift */; };
+		F33823FB2A7697EB007CDAA5 /* AttendanceInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33823FA2A7697EB007CDAA5 /* AttendanceInstance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,13 @@
 		F33823DA2A76902C007CDAA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F33823DC2A76902C007CDAA5 /* AstroApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AstroApp.entitlements; sourceTree = "<group>"; };
 		F33823DE2A76902C007CDAA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F33823E82A7691EB007CDAA5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F33823EC2A769368007CDAA5 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F33823EF2A76939C007CDAA5 /* UserAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthModel.swift; sourceTree = "<group>"; };
+		F33823F42A7694BF007CDAA5 /* AstroAppAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AstroAppAPI; sourceTree = "<group>"; };
+		F33823F62A769762007CDAA5 /* AttendanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceManager.swift; sourceTree = "<group>"; };
+		F33823F82A76978D007CDAA5 /* AttendanceManager+Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AttendanceManager+Load.swift"; sourceTree = "<group>"; };
+		F33823FA2A7697EB007CDAA5 /* AttendanceInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceInstance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F33823F32A7693F9007CDAA5 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +52,7 @@
 		F33823CA2A76902A007CDAA5 = {
 			isa = PBXGroup;
 			children = (
+				F33823F42A7694BF007CDAA5 /* AstroAppAPI */,
 				F33823D52A76902A007CDAA5 /* AstroApp */,
 				F33823D42A76902A007CDAA5 /* Products */,
 			);
@@ -52,10 +69,10 @@
 		F33823D52A76902A007CDAA5 /* AstroApp */ = {
 			isa = PBXGroup;
 			children = (
-				F33823D62A76902A007CDAA5 /* AstroAppApp.swift */,
-				F33823D82A76902A007CDAA5 /* ContentView.swift */,
-				F33823DA2A76902C007CDAA5 /* Assets.xcassets */,
 				F33823DC2A76902C007CDAA5 /* AstroApp.entitlements */,
+				F33823E52A76907A007CDAA5 /* Application */,
+				F33823EE2A769387007CDAA5 /* Model */,
+				F33823E62A7691B9007CDAA5 /* UI */,
 				F33823DD2A76902C007CDAA5 /* Preview Content */,
 			);
 			path = AstroApp;
@@ -67,6 +84,60 @@
 				F33823DE2A76902C007CDAA5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F33823E52A76907A007CDAA5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F33823D62A76902A007CDAA5 /* AstroAppApp.swift */,
+				F33823D82A76902A007CDAA5 /* ContentView.swift */,
+				F33823DA2A76902C007CDAA5 /* Assets.xcassets */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F33823E62A7691B9007CDAA5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F33823E72A7691CB007CDAA5 /* Main */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F33823E72A7691CB007CDAA5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F33823EA2A769276007CDAA5 /* Home */,
+				F33823EB2A769324007CDAA5 /* Authentication */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F33823EA2A769276007CDAA5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F33823E82A7691EB007CDAA5 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F33823EB2A769324007CDAA5 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F33823EC2A769368007CDAA5 /* SignInView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F33823EE2A769387007CDAA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F33823F62A769762007CDAA5 /* AttendanceManager.swift */,
+				F33823F82A76978D007CDAA5 /* AttendanceManager+Load.swift */,
+				F33823FA2A7697EB007CDAA5 /* AttendanceInstance.swift */,
+				F33823EF2A76939C007CDAA5 /* UserAuthModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +156,9 @@
 			dependencies = (
 			);
 			name = AstroApp;
+			packageProductDependencies = (
+				F33823F22A7693F9007CDAA5 /* GoogleSignIn */,
+			);
 			productName = AstroApp;
 			productReference = F33823D32A76902A007CDAA5 /* AstroApp.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +187,9 @@
 				Base,
 			);
 			mainGroup = F33823CA2A76902A007CDAA5;
+			packageReferences = (
+				F33823F12A7693F9007CDAA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = F33823D42A76902A007CDAA5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +206,7 @@
 			files = (
 				F33823DF2A76902C007CDAA5 /* Preview Assets.xcassets in Resources */,
 				F33823DB2A76902C007CDAA5 /* Assets.xcassets in Resources */,
+				F33823F52A7694BF007CDAA5 /* AstroAppAPI in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +217,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F33823F72A769762007CDAA5 /* AttendanceManager.swift in Sources */,
 				F33823D92A76902A007CDAA5 /* ContentView.swift in Sources */,
+				F33823F92A76978D007CDAA5 /* AttendanceManager+Load.swift in Sources */,
+				F33823F02A76939C007CDAA5 /* UserAuthModel.swift in Sources */,
+				F33823E92A7691EB007CDAA5 /* HomeView.swift in Sources */,
+				F33823ED2A769368007CDAA5 /* SignInView.swift in Sources */,
 				F33823D72A76902A007CDAA5 /* AstroAppApp.swift in Sources */,
+				F33823FB2A7697EB007CDAA5 /* AttendanceInstance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +438,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F33823F12A7693F9007CDAA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F33823F22A7693F9007CDAA5 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33823F12A7693F9007CDAA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F33823CB2A76902A007CDAA5 /* Project object */;
 }
