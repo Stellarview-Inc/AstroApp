@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @State var showingSettingsView = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            }
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        showingSettingsView.toggle()
+                    } label: {
+                        Image(systemName: "gearshape.fill")
+                    }
+                }
+            }
+        }
+        .sheet(isPresented: $showingSettingsView) {
+            SettingsView()
+        }
     }
 }
 

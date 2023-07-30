@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F317193D2A769C360088D1A0 /* AstroAppAPI in Frameworks */ = {isa = PBXBuildFile; productRef = F317193C2A769C360088D1A0 /* AstroAppAPI */; };
 		F317193F2A769C360088D1A0 /* AstroAppTypes in Frameworks */ = {isa = PBXBuildFile; productRef = F317193E2A769C360088D1A0 /* AstroAppTypes */; };
+		F31719442A76A49B0088D1A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F31719432A76A49B0088D1A0 /* GoogleService-Info.plist */; };
 		F33823D72A76902A007CDAA5 /* AstroAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33823D62A76902A007CDAA5 /* AstroAppApp.swift */; };
 		F33823D92A76902A007CDAA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33823D82A76902A007CDAA5 /* ContentView.swift */; };
 		F33823DB2A76902C007CDAA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33823DA2A76902C007CDAA5 /* Assets.xcassets */; };
@@ -16,15 +17,21 @@
 		F33823E92A7691EB007CDAA5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33823E82A7691EB007CDAA5 /* HomeView.swift */; };
 		F33823ED2A769368007CDAA5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33823EC2A769368007CDAA5 /* SignInView.swift */; };
 		F33823F02A76939C007CDAA5 /* UserAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33823EF2A76939C007CDAA5 /* UserAuthModel.swift */; };
-		F33823F32A7693F9007CDAA5 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = F33823F22A7693F9007CDAA5 /* GoogleSignIn */; };
 		F33823F52A7694BF007CDAA5 /* AstroAppAPI in Resources */ = {isa = PBXBuildFile; fileRef = F33823F42A7694BF007CDAA5 /* AstroAppAPI */; };
 		F33823F72A769762007CDAA5 /* AttendanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33823F62A769762007CDAA5 /* AttendanceManager.swift */; };
 		F33823F92A76978D007CDAA5 /* AttendanceManager+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33823F82A76978D007CDAA5 /* AttendanceManager+Load.swift */; };
 		F33823FB2A7697EB007CDAA5 /* AttendanceInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33823FA2A7697EB007CDAA5 /* AttendanceInstance.swift */; };
+		F34729AE2A76AA2000E57D32 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34729AD2A76AA1F00E57D32 /* SettingsView.swift */; };
+		F3E07C4A2A76A784001A4260 /* SheetConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E07C492A76A784001A4260 /* SheetConfigView.swift */; };
+		F3E07C4D2A76A7F4001A4260 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = F3E07C4C2A76A7F4001A4260 /* GoogleSignIn */; };
+		F3E07C512A76A804001A4260 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F3E07C502A76A804001A4260 /* FirebaseFirestore */; };
+		F3E07C532A76A804001A4260 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F3E07C522A76A804001A4260 /* FirebaseFirestoreCombine-Community */; };
+		F3E07C552A76A804001A4260 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F3E07C542A76A804001A4260 /* FirebaseFirestoreSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F31719422A769E9E0088D1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F31719432A76A49B0088D1A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F33823D32A76902A007CDAA5 /* AstroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F33823D62A76902A007CDAA5 /* AstroAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroAppApp.swift; sourceTree = "<group>"; };
 		F33823D82A76902A007CDAA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +45,8 @@
 		F33823F62A769762007CDAA5 /* AttendanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceManager.swift; sourceTree = "<group>"; };
 		F33823F82A76978D007CDAA5 /* AttendanceManager+Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AttendanceManager+Load.swift"; sourceTree = "<group>"; };
 		F33823FA2A7697EB007CDAA5 /* AttendanceInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceInstance.swift; sourceTree = "<group>"; };
+		F34729AD2A76AA1F00E57D32 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F3E07C492A76A784001A4260 /* SheetConfigView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetConfigView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +54,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F33823F32A7693F9007CDAA5 /* GoogleSignIn in Frameworks */,
 				F317193F2A769C360088D1A0 /* AstroAppTypes in Frameworks */,
+				F3E07C512A76A804001A4260 /* FirebaseFirestore in Frameworks */,
 				F317193D2A769C360088D1A0 /* AstroAppAPI in Frameworks */,
+				F3E07C532A76A804001A4260 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				F3E07C4D2A76A7F4001A4260 /* GoogleSignIn in Frameworks */,
+				F3E07C552A76A804001A4260 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +71,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F31719562A76A6F10088D1A0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F34729AD2A76AA1F00E57D32 /* SettingsView.swift */,
+				F3E07C562A76A8E8001A4260 /* Admin */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		F33823CA2A76902A007CDAA5 = {
@@ -83,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				F31719422A769E9E0088D1A0 /* Info.plist */,
+				F31719432A76A49B0088D1A0 /* GoogleService-Info.plist */,
 				F33823DC2A76902C007CDAA5 /* AstroApp.entitlements */,
 				F33823E52A76907A007CDAA5 /* Application */,
 				F33823EE2A769387007CDAA5 /* Model */,
@@ -123,6 +145,7 @@
 			children = (
 				F33823EA2A769276007CDAA5 /* Home */,
 				F33823EB2A769324007CDAA5 /* Authentication */,
+				F31719562A76A6F10088D1A0 /* Settings */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -154,6 +177,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		F3E07C562A76A8E8001A4260 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				F3E07C492A76A784001A4260 /* SheetConfigView.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,9 +202,12 @@
 			);
 			name = AstroApp;
 			packageProductDependencies = (
-				F33823F22A7693F9007CDAA5 /* GoogleSignIn */,
 				F317193C2A769C360088D1A0 /* AstroAppAPI */,
 				F317193E2A769C360088D1A0 /* AstroAppTypes */,
+				F3E07C4C2A76A7F4001A4260 /* GoogleSignIn */,
+				F3E07C502A76A804001A4260 /* FirebaseFirestore */,
+				F3E07C522A76A804001A4260 /* FirebaseFirestoreCombine-Community */,
+				F3E07C542A76A804001A4260 /* FirebaseFirestoreSwift */,
 			);
 			productName = AstroApp;
 			productReference = F33823D32A76902A007CDAA5 /* AstroApp.app */;
@@ -204,7 +238,8 @@
 			);
 			mainGroup = F33823CA2A76902A007CDAA5;
 			packageReferences = (
-				F33823F12A7693F9007CDAA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				F31719452A76A4FB0088D1A0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F3E07C4B2A76A7F4001A4260 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 			);
 			productRefGroup = F33823D42A76902A007CDAA5 /* Products */;
 			projectDirPath = "";
@@ -220,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31719442A76A49B0088D1A0 /* GoogleService-Info.plist in Resources */,
 				F33823DF2A76902C007CDAA5 /* Preview Assets.xcassets in Resources */,
 				F33823DB2A76902C007CDAA5 /* Assets.xcassets in Resources */,
 				F33823F52A7694BF007CDAA5 /* AstroAppAPI in Resources */,
@@ -238,6 +274,8 @@
 				F33823F92A76978D007CDAA5 /* AttendanceManager+Load.swift in Sources */,
 				F33823F02A76939C007CDAA5 /* UserAuthModel.swift in Sources */,
 				F33823E92A7691EB007CDAA5 /* HomeView.swift in Sources */,
+				F34729AE2A76AA2000E57D32 /* SettingsView.swift in Sources */,
+				F3E07C4A2A76A784001A4260 /* SheetConfigView.swift in Sources */,
 				F33823ED2A769368007CDAA5 /* SignInView.swift in Sources */,
 				F33823D72A76902A007CDAA5 /* AstroAppApp.swift in Sources */,
 				F33823FB2A7697EB007CDAA5 /* AttendanceInstance.swift in Sources */,
@@ -468,7 +506,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F33823F12A7693F9007CDAA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+		F31719452A76A4FB0088D1A0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.12.0;
+			};
+		};
+		F3E07C4B2A76A7F4001A4260 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
 			requirement = {
@@ -487,10 +533,25 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = AstroAppTypes;
 		};
-		F33823F22A7693F9007CDAA5 /* GoogleSignIn */ = {
+		F3E07C4C2A76A7F4001A4260 /* GoogleSignIn */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F33823F12A7693F9007CDAA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			package = F3E07C4B2A76A7F4001A4260 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignIn;
+		};
+		F3E07C502A76A804001A4260 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F31719452A76A4FB0088D1A0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F3E07C522A76A804001A4260 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F31719452A76A4FB0088D1A0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		F3E07C542A76A804001A4260 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F31719452A76A4FB0088D1A0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
