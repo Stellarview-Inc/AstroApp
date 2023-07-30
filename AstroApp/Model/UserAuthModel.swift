@@ -32,7 +32,7 @@ class UserAuthModel: ObservableObject {
     ]
 
     private init() {
-        let clientID = "797794125651-q9u0be3vt7b0frv22tnjof7v8e2h6vm0.apps.googleusercontent.com"
+        let clientID = "495723642922-lt7jr3c48t8oopjj2fpqrc832107r1n3.apps.googleusercontent.com"
         let signInConfig = GIDConfiguration(clientID: clientID)
 
         // load the email
